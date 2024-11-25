@@ -8,7 +8,11 @@ public class UnrealAsteroids : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "Niagara" });
+		PublicDependencyModuleNames.AddRange(new string[] { 
+			"Core", "CoreUObject", "Engine",
+			"InputCore", "EnhancedInput",
+			"CoreModule",
+			"Niagara" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

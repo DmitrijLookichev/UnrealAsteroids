@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include <Core/BaseSystem.h>
+#include "BaseSystem.h"
 
 
 class LogicWorld

@@ -5,6 +5,13 @@
 	"Description": "",
 	"Modules": [
 		{
+			"Name": "CoreModule",
+			"Type": "Runtime",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		},
+		{
 			"Name": "UnrealAsteroids",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",

@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Common/ColliderActor.h"
+#include "ColliderActor.h"
 #include "ShipActor.generated.h"
 
 UCLASS()

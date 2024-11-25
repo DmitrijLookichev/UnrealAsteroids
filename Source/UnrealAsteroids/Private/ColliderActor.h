@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Core/Primitives/ObjectType.h"
+#include "Primitives/ObjectType.h"
 #include "ColliderActor.generated.h"
 
 UCLASS()
