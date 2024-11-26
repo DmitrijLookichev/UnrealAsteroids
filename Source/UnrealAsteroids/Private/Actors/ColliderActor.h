@@ -7,11 +7,11 @@
 #include "Primitives/ObjectType.h"
 #include "ColliderActor.generated.h"
 
+using ObjectType = Asteroids::Core::ObjectType;
 UCLASS()
 class AColliderActor : public AActor
 {
-	GENERATED_BODY()
-	
+	GENERATED_BODY()	
 
 protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Main")
