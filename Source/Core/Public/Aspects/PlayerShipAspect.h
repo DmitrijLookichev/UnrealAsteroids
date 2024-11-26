@@ -23,19 +23,20 @@ namespace Asteroids::Core::Aspects
 
 			LaserVisual(FVector start, FVector end, float duration)
 				: Start(start), End(end), Duration(duration) {}
+			LaserVisual() : Start(FVector()), End(FVector()), Duration(.0f) {}
 		};
 
 	private:
 		ShipLaser _laser;
 		float _laserReload;
 		int _laserCharges;
-		float _laserVisualization;
+		LaserVisual _laserVisualization;
 
 	public:
 		ShipLaser& Laser() noexcept;
 		float& LaserReload() noexcept;
 		int& LaserCharges() noexcept;
-		LaserVisual& LaserVisualization() noexcept;
+		LaserVisual const& LaserVisualization() const noexcept;
 
 		PlayerShipAspect(int id, CollisionData collider, ShipMobility mobility,
 			ShipWeapon weapon, ShipLaser laser);

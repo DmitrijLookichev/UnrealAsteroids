@@ -4,15 +4,14 @@
 
 #include "Primitives/ObjectType.h"
 
-using ObjectType = Asteroids::Core::ObjectType;
 namespace Asteroids::Core::Datas
 {
 	const struct CollisionData
 	{
 	public:
 		const float Radius;
-		const ObjectType Type;
+		const EObjectType Type;
 
-		CollisionData(float radius, ObjectType type);
+		CollisionData(float radius, EObjectType type);
 	};
 }

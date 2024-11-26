@@ -5,6 +5,6 @@
 
 namespace Asteroids::Core::Datas
 {
-	CollisionData::CollisionData(float radius, ObjectType type)
+	CollisionData::CollisionData(float radius, EObjectType type)
 		: Radius(radius), Type(type) {}
 }

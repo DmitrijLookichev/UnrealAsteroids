@@ -7,21 +7,20 @@
 #include "Primitives/ObjectType.h"
 #include "ColliderActor.generated.h"
 
-using ObjectType = Asteroids::Core::ObjectType;
 UCLASS()
-class AColliderActor : public AActor
+class UNREALASTEROIDS_API AColliderActor : public AActor
 {
-	GENERATED_BODY()	
-
+	GENERATED_BODY()
+	
 protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Main")
-	ObjectType Type;
+	EObjectType Type;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Main")
 	float Radius = 1.0f;
 
 public:
 	AColliderActor();
 
-	ObjectType GetType() const noexcept;
+	EObjectType GetType() const noexcept;
 	float GetRadius() const noexcept;
 };

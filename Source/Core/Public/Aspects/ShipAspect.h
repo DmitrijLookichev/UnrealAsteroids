@@ -33,5 +33,5 @@ namespace Asteroids::Core::Aspects
 		ShipAspect(int id, CollisionData collider, ShipMobility mobility, ShipWeapon weapon);
 
 		virtual Aspect* Clone(int id) override;
-	}
+	};
 }

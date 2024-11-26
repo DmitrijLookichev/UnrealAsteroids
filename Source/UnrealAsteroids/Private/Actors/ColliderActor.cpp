@@ -9,7 +9,7 @@ AColliderActor::AColliderActor()
 	PrimaryActorTick.bCanEverTick = false;
 }
 
-ObjectType AColliderActor::GetType() const noexcept
+EObjectType AColliderActor::GetType() const noexcept
 {
 	return Type;
 }

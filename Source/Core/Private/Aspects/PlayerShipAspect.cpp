@@ -17,7 +17,7 @@ namespace Asteroids::Core::Aspects
     {
         return _laserCharges;
     }
-    PlayerShipAspect::LaserVisual& PlayerShipAspect::LaserVisualization() noexcept
+    PlayerShipAspect::LaserVisual const& PlayerShipAspect::LaserVisualization() const noexcept
     {
         return _laserVisualization;
     }

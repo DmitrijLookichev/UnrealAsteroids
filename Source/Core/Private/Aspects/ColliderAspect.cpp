@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "ColliderAspect.h"
+#include "Aspects/ColliderAspect.h"
 
 namespace Asteroids::Core::Aspects
 {

@@ -8,7 +8,7 @@
 #include "ShipActor.generated.h"
 
 UCLASS()
-class AShipActor : public AColliderActor
+class UNREALASTEROIDS_API AShipActor : public AColliderActor
 {
 	GENERATED_BODY()
 	

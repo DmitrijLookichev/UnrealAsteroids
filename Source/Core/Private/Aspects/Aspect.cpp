@@ -8,7 +8,7 @@ namespace Asteroids::Core::Aspects
 {
 	int Aspect::GetID() const noexcept
 	{ 
-		return _id; 
+		return _id;
 	}
 	CollisionData& Aspect::Collider() noexcept
 	{
@@ -18,7 +18,7 @@ namespace Asteroids::Core::Aspects
 	{
 		return _transform;
 	}
-	ObjectType const Aspect::Type() const noexcept
+	EObjectType const Aspect::Type() const noexcept
 	{
 		return _collider.Type;
 	}

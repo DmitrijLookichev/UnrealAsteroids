@@ -43,7 +43,7 @@ namespace Asteroids::Core::Aspects
 		CollisionData& Collider() noexcept;
 		RigidTransform& Transform() noexcept;
 
-		ObjectType const Type() const noexcept;
+		EObjectType const Type() const noexcept;
 
 		Aspect(int id, CollisionData collisionData);
 		virtual Aspect* Clone(int id) = 0;
