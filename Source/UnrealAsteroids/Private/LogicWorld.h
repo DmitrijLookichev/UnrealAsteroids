@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "BaseSystem.h"
-
+#include "SceneSettings.h"
 
 class LogicWorld
 {
@@ -14,6 +14,7 @@ private:
 	float _levelTime;
 
 public:
+	LogicWorld(USceneSettings* settings);
 	LogicWorld();
 	~LogicWorld();
 

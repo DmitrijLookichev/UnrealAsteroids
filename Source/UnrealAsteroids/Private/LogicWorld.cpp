@@ -3,9 +3,13 @@
 
 #include "LogicWorld.h"
 
-LogicWorld::LogicWorld()
+
+
+LogicWorld::LogicWorld(USceneSettings* settings)
 {
 }
+
+LogicWorld::LogicWorld() {}
 
 LogicWorld::~LogicWorld()
 {
@@ -13,5 +17,4 @@ LogicWorld::~LogicWorld()
 
 void LogicWorld::OnManualUpdate()
 {
-
 }
